@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Janibek Shakeleq — Painter, Milan</title>
+<meta name="description" content="Janibek Shakeleq, Kazakh figurative painter based in Milan. Oil paintings, drawings, portrait commissions.">
+<meta property="og:title" content="Janibek Shakeleq — Painter">
+<meta property="og:description" content="Figurative painting and portrait commissions. Milan.">
+<meta property="og:image" content="images/works/01.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23f4efe6'/><rect x='6' y='6' width='20' height='20' fill='%23b9772d'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#works" data-i18n="skip">Skip to works</a>
+
+<header class="nav" id="top">
+  <a class="wordmark" href="#top">Janibek Shakeleq</a>
+  <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span></button>
+  <nav id="menu" class="menu">
+    <a href="#works" data-i18n="nav.works">Works</a>
+    <a href="#commissions" data-i18n="nav.commissions">Commissions</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button data-lang="it" aria-pressed="false">IT</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Painter · Milan</p>
+      <h1 data-i18n="hero.title">Figures that remember where they come from.</h1>
+      <p class="lede" data-i18n="hero.lede">Oil paintings and drawings by a Kazakh artist trained at the Accademia di Belle Arti di Brera. Originals available, portraits on commission.</p>
+      <div class="actions">
+        <a class="btn" href="#works" data-i18n="hero.cta1">See the works</a>
+        <a class="btn ghost" href="#commissions" data-i18n="hero.cta2">Commission a portrait</a>
+      </div>
+    </div>
+    <figure class="hero-art" id="hero-art"></figure>
+  </section>
+
+  <!-- WORKS -->
+  <section class="section" id="works">
+    <div class="section-head">
+      <h2 data-i18n="works.title">Works</h2>
+      <div class="filters" role="group" aria-label="Filter works">
+        <button class="chip is-active" data-filter="all" aria-pressed="true" data-i18n="filter.all">All</button>
+        <button class="chip" data-filter="painting" aria-pressed="false" data-i18n="filter.painting">Paintings</button>
+        <button class="chip" data-filter="drawing" aria-pressed="false" data-i18n="filter.drawing">Drawings</button>
+        <button class="chip" data-filter="study" aria-pressed="false" data-i18n="filter.study">Studies</button>
+        <button class="chip" data-filter="available" aria-pressed="false" data-i18n="filter.available">Available</button>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+    <p class="note" data-i18n="works.note">Prices and detailed information on request. Works ship from Milan, worldwide.</p>
+  </section>
+
+  <!-- COMMISSIONS -->
+  <section class="section band" id="commissions">
+    <div class="two-col">
+      <div>
+        <h2 data-i18n="comm.title">Portrait commissions</h2>
+        <p class="lede" data-i18n="comm.lede">A painted portrait is made slowly, from life where possible, from photographs where not. Head studies, half-figures and full figures, in oil on canvas or charcoal on paper.</p>
+        <a class="btn" href="#contact" data-i18n="comm.cta">Request a portrait</a>
+      </div>
+      <ol class="steps">
+        <li><span>01</span><div><h3 data-i18n="comm.s1t">Conversation</h3><p data-i18n="comm.s1">We talk about who the portrait is for, the size, and the room it will live in.</p></div></li>
+        <li><span>02</span><div><h3 data-i18n="comm.s2t">Sitting or photographs</h3><p data-i18n="comm.s2">One or two sittings in the Milan studio, or a set of photographs if you are elsewhere.</p></div></li>
+        <li><span>03</span><div><h3 data-i18n="comm.s3t">Sketch</h3><p data-i18n="comm.s3">A drawn study is sent for approval before paint touches canvas.</p></div></li>
+        <li><span>04</span><div><h3 data-i18n="comm.s4t">Painting</h3><p data-i18n="comm.s4">Four to eight weeks depending on size. Progress photographs along the way.</p></div></li>
+        <li><span>05</span><div><h3 data-i18n="comm.s5t">Delivery</h3><p data-i18n="comm.s5">Collected from the studio, or packed and shipped insured anywhere in the world.</p></div></li>
+      </ol>
+    </div>
+    <dl class="formats">
+      <div><dt data-i18n="comm.f1t">Head study</dt><dd data-i18n="comm.f1">from 30 × 40 cm · oil or charcoal</dd><dd class="price" data-i18n="comm.price">price on request</dd></div>
+      <div><dt data-i18n="comm.f2t">Half figure</dt><dd data-i18n="comm.f2">from 60 × 80 cm · oil on canvas</dd><dd class="price" data-i18n="comm.price">price on request</dd></div>
+      <div><dt data-i18n="comm.f3t">Full figure</dt><dd data-i18n="comm.f3">from 100 × 150 cm · oil on canvas</dd><dd class="price" data-i18n="comm.price">price on request</dd></div>
+    </dl>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="two-col about">
+      <figure class="about-photo">
+        <img src="images/about/studio.jpg" alt="Janibek Shakeleq in the studio" onerror="this.parentNode.classList.add('is-ph'); this.remove()">
+        <figcaption data-i18n="about.cap">The studio, Milan</figcaption>
+      </figure>
+      <div>
+        <h2 data-i18n="about.title">About</h2>
+        <p data-i18n="about.p1">Janibek Shakeleq is a painter from Kazakhstan living and working in Milan. He studied painting at the Accademia di Belle Arti di Brera, where he completed his bachelor's degree.</p>
+        <p data-i18n="about.p2">His paintings return to the same figure: a body with its arms raised, hair and limbs turning into branches, set against the flat colours of the steppe and the studio wall. The work moves between oil on canvas, charcoal, and small studies on paper made from life.</p>
+        <p data-i18n="about.p3">He takes a limited number of portrait commissions each year and shows work in Milan and abroad.</p>
+        <dl class="cv">
+          <div><dt data-i18n="about.edu">Education</dt><dd>BA Painting, Accademia di Belle Arti di Brera, Milan</dd></div>
+          <div><dt data-i18n="about.based">Based in</dt><dd>Milan, Italy</dd></div>
+          <div><dt data-i18n="about.exh">Exhibitions</dt><dd data-i18n="about.exhval">— to be added —</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section band" id="contact">
+    <div class="two-col">
+      <div>
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p class="lede" data-i18n="contact.lede">For available works, commissions, studio visits and press.</p>
+        <p class="contact-lines">
+          <a href="mailto:shakeleq@gmail.com">shakeleq@gmail.com</a><br>
+          <a href="https://www.instagram.com/shakeleq/" target="_blank" rel="noopener">Instagram @shakeleq</a><br>
+          <span data-i18n="contact.loc">Studio in Milan, by appointment</span>
+        </p>
+      </div>
+      <form class="form" id="form" action="mailto:shakeleq@gmail.com" method="post" enctype="text/plain">
+        <label><span data-i18n="form.name">Name</span><input name="name" type="text" required autocomplete="name"></label>
+        <label><span data-i18n="form.email">Email</span><input name="email" type="email" required autocomplete="email"></label>
+        <label><span data-i18n="form.subject">I'm writing about</span>
+          <select name="subject">
+            <option value="work" data-i18n="form.o1">An available work</option>
+            <option value="commission" data-i18n="form.o2">A portrait commission</option>
+            <option value="visit" data-i18n="form.o3">A studio visit</option>
+            <option value="other" data-i18n="form.o4">Something else</option>
+          </select>
+        </label>
+        <label><span data-i18n="form.msg">Message</span><textarea name="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit" data-i18n="form.send">Send</button>
+        <p class="form-hint" data-i18n="form.hint">Opens your mail app. Replies usually within a few days.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Janibek Shakeleq</span>
+  <span data-i18n="footer.rights">All images are the property of the artist and may not be reproduced without permission.</span>
+  <a href="#top" data-i18n="footer.top">Back to top ↑</a>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork" hidden>
+  <button class="lb-close" id="lb-close" aria-label="Close">×</button>
+  <button class="lb-prev" id="lb-prev" aria-label="Previous">←</button>
+  <figure class="lb-fig"><div class="lb-img" id="lb-img"></div><figcaption id="lb-cap"></figcaption></figure>
+  <button class="lb-next" id="lb-next" aria-label="Next">→</button>
+</div>
+
+<script src="works.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
